@@ -1,8 +1,8 @@
 import unittest
-from question8 import linkedListMerge
+from question3 import linkedListMerge
 
 
-class testq8(unittest.TestCase):
+class testq3(unittest.TestCase):
     def test_c1(self):
         self.assertFalse(len(linkedListMerge([["a", "b", "b"], "c", "d"])) > len(["a", "b", "c", "d"]))
 

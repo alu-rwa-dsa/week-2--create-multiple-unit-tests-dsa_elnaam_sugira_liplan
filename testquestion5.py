@@ -1,8 +1,8 @@
 import unittest
-from question10 import ocurrenceCalc
+from question5 import ocurrenceCalc
 
 
-class testq10(unittest.TestCase):
+class testq5(unittest.TestCase):
     def test_c1(self):
         self.assertIn(1, ocurrenceCalc(6))
 
